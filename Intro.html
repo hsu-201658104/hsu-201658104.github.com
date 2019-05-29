@@ -6,28 +6,32 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>jQuery Mobile</title>
+	<link rel="stylesheet" type="text/css" href="mportpolio.css"/>
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 	
-<div data-role="page">
-	<div data-role="header">
+<div data-role="page" >
+	<div data-role="header" data-theme="b">
 		<h1>박영창 홈페이지</h1>
 	</div>
-	<div data-role="content">
-		<p><strong>음악</strong></p><br/>			
-		<ul data-role="listview" data-theme="b">
-			<li data-theme="a"><a href="관심사.html">관심사
+	
+	<div data-role="content" > 
+			
+			
+		<ul data-role="listview" data-theme="b" data-role="button" data-rel="dialog" >
+			<li data-role="listdivider" data-theme="a"> 홈</li>
+			<li ><a href="관심사.html"  data-role="button" data-rel="dialog">관심사
 			</a></li>
-			<li ><a href="mysoge.html">소개
+			<li ><a href="mysoge.html"data-theme="a" data-role="button" data-rel="dialog">소개
 			</a></li>
-			<li data-theme="a"><a href="myhobby.html">취미
+			<li ><a href="myhobby.html" data-role="button" data-rel="dialog">취미
 			</a></li>
-			<li ><a href="minfo.html">인적
+			<li ><a href="minfo.html"data-theme="a" data-role="button" data-rel="dialog">인적
 			</a></li>
-			<li data-theme="a"><a href="MyInfo.html">이력서
+			<li \><a href="MyInfo.html" data-role="button" data-rel="dialog">이력서
 			</a></li>
 		
 		</ul>

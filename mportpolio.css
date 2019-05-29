@@ -9,7 +9,6 @@ footer { position: fixed; bottom: 0px; }
 h1 { padding: 15px; font-size: 30px ; color: yellow;background-color : black; }
 h2 {  color: orange; }
 h3 { margin: 10px; font-size: 15px; color: green;  }
-h1 { background-image: url(background.jpg); background-repeat: repeat-x; }
 
 img { border: 1; padding: 2px; }
 
