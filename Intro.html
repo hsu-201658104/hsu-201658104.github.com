@@ -10,6 +10,16 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#fadeOut').click(function(){
+				$('#Myface').fadeOut(1000);
+			});
+			$('#fadeIn').click(function(){
+					$('#Myface').fadeIn(1000);
+			});
+		});
+	</script>
 </head>
 <body>
 	
@@ -31,7 +41,7 @@
 			</a></li>
 			<li ><a href="minfo.html"data-theme="a" data-role="button" data-rel="dialog">인적
 			</a></li>
-			<li \><a href="MyInfo.html" data-role="button" data-rel="dialog">이력서
+			<li><a href="MyInfo.html" data-role="button" data-rel="dialog">이력서
 			</a></li>
 		
 		</ul>

@@ -8,6 +8,16 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#fadeOut').click(function(){
+				$('#Myface').fadeOut(1000);
+			});
+			$('#fadeIn').click(function(){
+					$('#Myface').fadeIn(1000);
+			});
+		});
+	</script>
 </head>
 <body>
 	<div data-role="page">
@@ -16,8 +26,11 @@
 		<h1>박영창 홈페이지</h1>
 	</div>
 
-  <div class="content">
+ <div class="content">
+ <button id="fadeOut">사진 숨기기</button>
+<button id="fadeIn"> 사진 보이기</button>
 	<section class="section1">  
+
 
 <table id="MyInformation" width = 100% height:"600" >
 			
@@ -30,7 +43,7 @@
 							박영창
 						</th>
 						<th>
-							<img  src="myface.png" />
+							<img  src="myface.png" id="Myface" />
 						</th>
 					</tr>
 				</thead>

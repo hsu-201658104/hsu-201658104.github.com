@@ -8,6 +8,16 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#fadeOut').click(function(){
+				$('#Myface').fadeOut(1000);
+			});
+			$('#fadeIn').click(function(){
+					$('#Myface').fadeIn(1000);
+			});
+		});
+	</script>
 </head>
 <body>
 	<div data-role="page">
@@ -17,9 +27,11 @@
 	</div>
 
   <div class="content">
+  	 <button id="fadeOut">사진 숨기기</button>
+<button id="fadeIn"> 사진 보이기</button>
 	<section class="section1">  
 		<h3>자기소개</h3>
-		<img id="증명사진" src="myface.png"/>
+		<img id="Myface" src="myface.png"/>
 		<p>
 			저는 현재 한신대학교 16학번 컴퓨터 공학부 2학년 재학중이고, 소속되어 있는 랩은 DBAT입니다.
 			</p>
